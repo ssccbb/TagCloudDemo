@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D0CFD6"
+        android:textSize="8sp"
+        tools:text="吸猫大仙" />
+
+    <ImageView
+        android:id="@+id/iv_state"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/bg_rapid_match_normal"
+        tools:src="@drawable/bg_rapid_match_normal" />
+
+    <TextView
+        android:id="@+id/tv_match_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#D0CFD6"
+        android:textSize="6sp"
+        tools:text="99%" />
+</LinearLayout>
